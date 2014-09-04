@@ -1,0 +1,86 @@
+html, body { 
+  height:100%; 
+  width:100%;
+} 
+
+body {
+  font-family: Arial, "Arial", sans-serif;
+  background: #FFF;
+}
+
+#main {
+  background: #D7DCE2;
+  border-right: 1px solid #A5A9AE;
+  border-left: 1px solid #A5A9AE;
+ }  
+
+li {
+  margin-left: -20px;
+  }  
+  
+#headers {
+  padding-left: 40px;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding-top: 10px;
+  font-size: 11px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  }
+  
+.footer a {
+  color: #000;
+  text-decoration: none;
+  }
+  
+.footer a:hover {
+  color: red;
+  text-decoration: underline;
+  }
+    
+#content {
+  font-size: 11px;
+  width: 582px;
+  padding: 10px;
+  color: #565656;
+  }
+  
+#single_view, #gallery_overview {
+  font-size: 11px;
+  color: #565656;
+  }  
+  
+#content a, #single_view a, #gallery_overview a {
+  font-size: 11px;
+  color: #D75300;
+  }
+  
+#content a:hover, #single_view a:hover, #gallery_overview a:hover {
+  font-size: 11px;
+  color: #000;
+  text-decoration: none;
+  }  
+  
+.copy {
+  font-size: 10px;
+  color: #000;
+  }  
+  
+  /*#######################*/
+
+#cwebdes, #cwebdes a {
+  color: #B7B7B7;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+#cwebdes a:hover {
+  color: #FFA7A7;
+}
